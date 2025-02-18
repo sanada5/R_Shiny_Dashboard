@@ -1,6 +1,15 @@
 # Swiss Houses Dashboard
 
-This project is a Shiny dashboard for visualizing house prices in Switzerland. The dashboard provides various visualizations to explore the distribution of house prices based on different factors such as house type, size, and location.
+An interactive R Shiny dashboard analyzing Swiss real estate data. Features include:
+- Price distribution analysis by property type and region
+- Living space vs. price correlations
+- Geographic price variations
+- Property features impact analysis
+
+Built with R Shiny and Docker for easy deployment.
+
+## Dashboard Demo
+![Dashboard Demo](dashboard_demo.gif)
 
 The dataset used in this project is sourced from Kaggle: https://www.kaggle.com/datasets/etiennekaiser/switzerland-house-price-prediction-data
 
@@ -8,8 +17,6 @@ The dataset used in this project is sourced from Kaggle: https://www.kaggle.com/
 ## Project Structure
 
 ### Explanation:
-- **.gitignore**: Specifies files and directories to be ignored by Git.
-- **README.md**: Provides an overview of the project, setup instructions, and usage.
 - **app.R**: Main Shiny app code that sources the UI and server components and runs the application.
 - **data/**: Directory containing data files.
 - **www/**: Directory containing static files (e.g., custom CSS).
@@ -65,3 +72,5 @@ The dataset used in this project is sourced from Kaggle: https://www.kaggle.com/
 
 4. **Access the Dashboard**:
    Open your web browser and navigate to `http://localhost:3838`
+
+
