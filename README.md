@@ -26,7 +26,7 @@ The dataset used in this project is sourced from Kaggle: https://www.kaggle.com/
 
 1. **Clone the repository**:
    ```sh
-   git clone https://github.com/yourusername/swiss-houses-dashboard.git
+   git clone https://github.com/sanada5/R_Shiny_Dashboard.git
 
 2. **Install the required R packages**:
     ```sh
