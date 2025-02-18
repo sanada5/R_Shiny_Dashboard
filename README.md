@@ -50,12 +50,12 @@ The dataset used in this project is sourced from Kaggle: https://www.kaggle.com/
 
 2. **Build the Docker image**:
    ```sh
-   docker build -t swiss-houses-dashboard .
+   docker build -t R_Shiny_Dashboard .
    ```
 
 3. **Run the Docker container**:
    ```sh
-   docker run -d -p 3838:3838 swiss-houses-dashboard
+   docker run -d -p 3838:3838 R_Shiny_Dashboard
    ```
 #### Subsequent Runs
 1. **Start Docker Desktop**
@@ -67,7 +67,7 @@ The dataset used in this project is sourced from Kaggle: https://www.kaggle.com/
 
 3. **If not running, start the container**:
    ```sh
-   docker run -d -p 3838:3838 swiss-houses-dashboard
+   docker run -d -p 3838:3838 R_Shiny_Dashboard
    ```
 
 4. **Access the Dashboard**:
