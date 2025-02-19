@@ -18,9 +18,8 @@ The dataset used in this project is sourced from Kaggle: https://www.kaggle.com/
 
 ### Explanation:
 - **app.R**: Main Shiny app code that sources the UI and server components and runs the application.
-- **data/**: Directory containing data files.
-- **www/**: Directory containing static files (e.g., custom CSS).
-- **R/**: Directory containing R scripts for UI, server, data importation, processing, and helper functions.
+- **data/**: Directory containing the dataset.
+- **R/**: Directory containing R scripts for UI, server, data importation, and processing functions.
 
 ## Setup
 
